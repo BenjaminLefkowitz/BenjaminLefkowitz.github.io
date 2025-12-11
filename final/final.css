@@ -4,9 +4,9 @@ body {
    font-size: 20px;
    
 }
-}
+
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color:skyblue;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
@@ -18,10 +18,11 @@ body {
 	text-align: center;
 	font-family: 'Times New Roman', serif;
 	background-color:#D6E3F8;
+	padding:5px;
 }
 h4 {
 	font-style: italic;
-	font-size: 40px;
+	font-size: 25px;
 	font-family: 'Georgia', serif;
 	
 }
@@ -35,14 +36,27 @@ img {
 	margin-left: 5%;
 	margin-right: 5%;
 }
-
+.caption {
+  font-size: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5px;
+  text-align: right;
+}
 .oswald-subhead {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-/*Don't worry about this section yet*/
+.mainimage {
+  float: right;
+  margin-left: 5%;
+  margin-right:5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*MOBILE ONLYt*/
 @media only screen and (max-width: 767px)
 {
  .list {
@@ -60,12 +74,12 @@ img {
  	margin-right: 10px;
 }
  	.footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: lightcoral;
+	background-color:skyblue;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
  }
 
 
-
+}
 .
